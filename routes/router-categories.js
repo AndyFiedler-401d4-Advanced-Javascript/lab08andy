@@ -14,7 +14,7 @@ router.get('/categories', (req, res, next) => {
   router.get('/categories/:id', (req, res, next) => {
     categoriesRepository
       .get(req.params.id)
-      .then( => {
+      .then( category => {
         if (!category) {
           res.status(404)
             .send({

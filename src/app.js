@@ -6,8 +6,8 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 // Esoteric Resources
-const errorHandler = require( './middleware/error.js');
-const notFound = require( './middleware/404.js' );
+const errorHandler = require( '../middleware/error.js');
+const notFound = require( '../middleware/404.js' );
 
 // Models
 // TODO: Pull these in (or create them)!
