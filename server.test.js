@@ -30,4 +30,18 @@ describe('web server', () => {
 
   });
 
+  //start new tests here
+  it('should respond properly on post to /categories', () => {
+
+    return mockRequest
+      .post('/categories')
+      .send({name:'Test', description:'test stuff'})
+      .expect(200)
+      .then(results => {
+        expect(results.body.name).toBe('Test');
+      });
+
+  });
+  
+
 });

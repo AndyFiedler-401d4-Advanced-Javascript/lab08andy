@@ -2,6 +2,7 @@
 
 // Where is our schema defined?
 // How do we get it in here so we can run methods on it?
+const schema = require('/models/categories.js')
 
 class Categories {
 

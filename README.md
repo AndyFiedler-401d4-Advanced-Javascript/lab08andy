@@ -4,8 +4,8 @@ LAB -
 Project Name: Lab 08
 Author: Andy Fiedler
 Links and Resources
-submission PR: https://github.com/AndyFiedler/lab05andy/pull/1
-travis: https://travis-ci.com/AndyFiedler/lab05andy
+submission PR: https://github.com/AndyFiedler-401d4-Advanced-Javascript/lab08andy/pull/1
+travis: https://travis-ci.com/search/lab08andy
 back-end (when applicable)
 front-end (when applicable)
 Documentation
